@@ -1,14 +1,14 @@
 # Setup
-title: Dark Poole
-url: https://getpoole.com
+title: Mark Rothermel
+url: https://rothermel.me
 paginate: 1
-baseurl: ""
+baseurl: "/rothermel.me"
 permalink: pretty
 
 # Gems
 plugins:
-  - jekyll-gist
   - jekyll-paginate
+  - jekyll-gist
   - jekyll-seo-tag
 
 # Optimize Jekyll
@@ -20,6 +20,7 @@ exclude:
   - Gemfile.lock
   - LICENSE.md
   - README.md
+  - .idea
 
 sass:
   sass_dir: _sass
@@ -32,12 +33,12 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: Mark Otto
-  url: https://twitter.com/mdo
-  email: markdotto@gmail.com
+  name: Mark Rothermel
+  url: https://twitter.com/real_maggi
+  email: mark@rothermel.me
 
 # Custom vars
-version: 3.0.0
+version: 0.0.0
 
 # Navbar page list
 nav:
