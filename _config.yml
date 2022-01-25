@@ -1,6 +1,6 @@
 # Setup
 title: Mark Rothermel
-url: https://rothermel.me
+url:
 paginate: 1
 baseurl: ""
 permalink: pretty
@@ -43,7 +43,7 @@ sass:
 author:
   name: Mark Rothermel
   url: https://twitter.com/real_maggi
-  email: mark@rothermel.me
+#  email: mark@rothermel.me
 
 # Custom vars
 version: 0.1.0
