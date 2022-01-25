@@ -2,7 +2,7 @@
 title: Mark Rothermel
 url:
 paginate: 1
-baseurl: "/rothermel.me"
+baseurl: ""
 permalink: pretty
 
 # Gems
@@ -65,4 +65,7 @@ nav:
   - title: Contact
     url: /contact
 
-source: docs
+collections:
+  pages:
+    output: true
+    permalink: /:path
