@@ -23,6 +23,13 @@ exclude:
   - .idea
   - node_modules
 
+include:
+  - _pages
+
+#collections:
+#  _pages:
+#    permalink: /
+
 sass:
   sass_dir: _sass
   style: :compressed
@@ -39,14 +46,23 @@ author:
   email: mark@rothermel.me
 
 # Custom vars
-version: 0.0.0
+version: 0.1.0
 
 # Navbar page list
 nav:
-  - title: Blog
-    url: /archive
-
   - title: About
     url: /about
+
+  - title: Projects
+    url: /projects
+
+  - title: Blog
+    url: /blog
+
+  - title: Photography
+    url: /photography
+
+  - title: Contact
+    url: /contact
 
 source: src

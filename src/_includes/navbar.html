@@ -1,0 +1,38 @@
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container-fluid" id="navbar">
+    <a class="navbar-brand" href="{{ site.baseurl }}/" title="Home">Mark Rothermel</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        {% for nav in site.nav %}
+        <li class="nav-item">
+          <small>
+            <a href="{{ site.baseurl | append: nav.url }}" class="nav-link {% if page.url == item.link %} active" aria-current="page{% endif %}">
+              {{ nav.title }}
+            </a>
+          </small>
+          <!--          <a class="nav-link{% if page.url == item.link %} active" aria-current="page{% endif %}" href={{ item.link |-->
+          <!--             prepend: site.baseurl }}>{{ item.name }}</a>-->
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!--<header class="masthead">-->
+<!--  <h3 class="masthead-title">-->
+<!--    <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>-->
+
+<!--    <nav class="nav">-->
+<!--      {% for nav in site.nav %}-->
+<!--      <small><a href="{{ nav.url }}">{{ nav.title }}</a></small>-->
+<!--      {% endfor %}-->
+<!--    </nav>-->
+<!--  </h3>-->
+<!--</header>-->
