@@ -2,7 +2,7 @@
 title: Mark Rothermel
 url: https://rothermel.me
 paginate: 1
-baseurl: "/rothermel.me"
+baseurl: "/"
 permalink: pretty
 
 # Gems
