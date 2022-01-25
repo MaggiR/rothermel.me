@@ -1,5 +1,5 @@
 ---
 layout: construction
 title: About
-permalink: /about
+permalink: /about/
 ---
