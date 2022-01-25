@@ -21,6 +21,7 @@ exclude:
   - LICENSE.md
   - README.md
   - .idea
+  - node_modules
 
 sass:
   sass_dir: _sass
@@ -47,3 +48,5 @@ nav:
 
   - title: About
     url: /about
+
+source: src
