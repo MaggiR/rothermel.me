@@ -22,7 +22,7 @@
 #main-screen {
   font-size: calc(0.8em + (0.005 * 100vw));
   display: flex;
-  min-height: 100vh;
+  /*min-height: 100vh;*/
   justify-content: space-between;
   flex-direction: column;
 }
