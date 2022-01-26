@@ -1,11 +1,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta property="og:image" content="{{ 'assets/images/mark_thumbnail.jpg' | relative_url }}">
+  <meta property="og:image" content="{{ 'assets/images/mark_thumbnail.jpg' | absolute_url }}">
 
   <title>
     {% if page.title == "Home" %}
-      {{ site.title }}{% if site.tagline %} &middot; {{ site.tagline }}{% endif %}
+      {{ site.title }}
     {% else %}
       {{ page.title }} &middot; {{ site.title }}
     {% endif %}
@@ -13,6 +13,4 @@
 
   <link rel="stylesheet" href="{{ 'assets/css/styles.css' | relative_url }}">
   <link rel="stylesheet" href="{{ 'assets/css/main.css' | relative_url }}">
-<!--  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ 'atom.xml' | relative_url }}">-->
-<!--  {% seo title=false %}-->
 </head>
