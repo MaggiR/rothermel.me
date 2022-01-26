@@ -73,13 +73,8 @@ collections:
     output: true
     permalink: /:path
 
-#defaults:
-#  - scope:
-#      path: ""
-#    values:
-
 defaults:
   - scope:
       path: ""
     values:
-      image: /assets/images/thumbnail.jpg
+      image: https://rothermel.me/assets/images/thumbnail.jpg
