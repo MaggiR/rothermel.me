@@ -77,3 +77,9 @@ collections:
 #  - scope:
 #      path: ""
 #    values:
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/thumbnail.jpg
