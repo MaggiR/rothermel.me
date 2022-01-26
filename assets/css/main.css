@@ -101,6 +101,15 @@
   margin-bottom: 3em;
 }
 
+.nav-item {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 .nav-item:last-child {
   margin-right: -0.5rem;
+}
+
+.active {
+  font-weight: bold;
 }
