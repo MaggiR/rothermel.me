@@ -1,6 +1,14 @@
-# Setup
+# Meta
 title: Mark Rothermel
-url:
+url: rothermel.me
+tagline: "Mark Rothermel's personal webpage."
+description: "ML Researcher, focusing on Explainable AI. Thinker. Photographer. Designer."
+image:
+  path: assets/images/mark_thumbnail.jpg
+  height: 512
+  width: 512
+
+# Setup
 paginate: 1
 baseurl: ""
 permalink: pretty
@@ -43,7 +51,6 @@ sass:
 author:
   name: Mark Rothermel
   url: https://twitter.com/real_maggi
-#  email: mark@rothermel.me
 
 # Custom vars
 version: 0.1.0

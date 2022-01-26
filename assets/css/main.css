@@ -20,6 +20,7 @@
 }
 
 #main-screen {
+  font-size: calc(0.8em + (0.005 * 100vw));
   display: flex;
   min-height: 100vh;
   justify-content: space-between;
@@ -35,9 +36,7 @@
 #main-menu {
   display: flex;
   align-items: flex-end;
-  /*width: 20em;*/
-  margin-top: calc(3em + (0.05 * 100vw));
-  /*padding-right: 1em;*/
+  margin-top: 4em;
   padding-left: 2em;
   flex-direction: column;
 }
@@ -47,7 +46,7 @@
   display: block;
   font-family: Outfit, sans-serif;
   font-weight: bold;
-  font-size: calc(1.5em + (0.015 * 100vw));
+  font-size: 1.5em;
   margin-bottom: 0.7em;
 }
 
@@ -58,7 +57,6 @@
 .main-menu-option {
   display: block;
   text-align: right;
-  font-size: 1.2em;
   min-width: 12em;
   padding-top: 0.6em;
   padding-bottom: 0.6em;
@@ -73,6 +71,9 @@
 }
 
 .footer {
+  margin-top: 2.2em;
+  margin-bottom: 2.2em;
+  font-size: 0.8em;
   text-align: center;
 }
 
