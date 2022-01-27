@@ -12,7 +12,7 @@
         {% for nav in site.nav %}
         <li class="nav-item">
           <small>
-            <a href="{{ site.baseurl | append: nav.url }}" class="nav-link {% if page.url == nav.url %} active" aria-current="page{% endif %}">
+            <a href="{{ site.baseurl | append: nav.url }}" class="nav-link {% if page.url contains nav.url %} active" aria-current="page{% endif %}">
               {{ nav.title }}
             </a>
           </small>
