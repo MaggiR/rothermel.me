@@ -113,3 +113,8 @@
 .active {
   font-weight: bold;
 }
+
+.page-link {
+  background-color: #0d0d0d;
+  color: white;
+}

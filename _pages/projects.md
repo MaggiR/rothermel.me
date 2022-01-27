@@ -1,6 +1,6 @@
 ---
-layout: post
-title: Past Projects
+layout: default
+title: Projects
 ---
 
 # PLACEHOLDER

@@ -5,9 +5,11 @@ tagline: "My personal webpage."
 description: "ML Researcher, focusing on Explainable AI. Thinker. Photographer. Designer."
 
 # Setup
-paginate: 1
 baseurl: ""
 permalink: pretty
+
+paginate: 2
+paginate_path: "/blog/page:num/"
 
 # Gems
 plugins:
@@ -30,9 +32,10 @@ exclude:
 include:
   - _pages
 
-#collections:
-#  _pages:
-#    permalink: /
+collections:
+  pages:
+    output: true
+    permalink: /:path
 
 sass:
   sass_dir: _sass
@@ -68,13 +71,12 @@ nav:
   - title: Contact
     url: /contact
 
-collections:
-  pages:
-    output: true
-    permalink: /:path
-
 defaults:
   - scope:
       path: ""
     values:
       image: https://rothermel.me/assets/images/thumbnail.jpg
+#  - scope:
+#      path: "/posts/"
+#    values:
+#      excerpt_separator: <!-- teaser-end -->
