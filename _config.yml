@@ -2,13 +2,13 @@
 title: Mark Rothermel
 url: rothermel.me
 tagline: "My personal webpage."
-description: "ML Researcher, focusing on Explainable AI. Thinker. Photographer. Designer."
+description: "Graduate Student, Researcher (ML, (X)AI), Photographer, Debater, Thinker."
 
 # Setup
 baseurl: ""
 permalink: pretty
 
-paginate: 2
+paginate: 10
 paginate_path: "/blog/page:num/"
 
 # Gems
@@ -52,7 +52,7 @@ author:
   url: https://twitter.com/real_maggi
 
 # Custom vars
-version: 0.1.0
+version: 0.2.0
 
 # Navbar page list
 nav:

@@ -1,6 +1,16 @@
 // Bootstrap color variables
 
-$primary:       #f38e19;
+:root {
+  --primary: hsl(40, 88%, 53%);
+  --primary-hover: hsl(40, 88%, 65%);
+  --bg-hover: hsl(200, 3%, 16%);
+  --color-lines: hsl(0, 0%, 30%);
+  --bg-disabled: hsl(200, 3%, 20%);
+  --color-disabled: hsl(0, 0%, 45%);
+  --color-muted: hsl(0, 0%, 40%);
+}
+
+$primary: hsl(40, 88%, 53%);
 //$secondary:     $gray-600;
 //$success:       $green;
 //$info:          $cyan;
