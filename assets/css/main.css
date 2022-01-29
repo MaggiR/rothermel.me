@@ -230,6 +230,24 @@ img + em {  /* Image captions */
   margin-top: -0.5em;
 }
 
-/*em - img {*/
+.project-thumbnail-sm {
+  width: 100%;
+  margin: 1em 1em 0 0;
+}
 
-/*     }*/
+.project-thumbnail-lg {
+  width: 100%;
+  margin: 1em 1em 0 0;
+}
+
+/*.project-thumbnail img {*/
+/*  margin: 0;*/
+/*}*/
+
+@media screen and (min-width:768px) {  /* Bootstrap medium size */
+  .project-thumbnail-sm {
+    margin-top: 0.5em;
+    width: 50%;
+    float: left;
+  }
+}
