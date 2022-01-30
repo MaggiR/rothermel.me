@@ -1,0 +1,15 @@
+---
+layout: default
+title: Projects
+---
+
+<h1>Projects</h1>
+
+<div class="projects">
+  <hr>
+  {% assign project_no = 0 %}
+  {% for project in site.projects reversed %}
+  {% include project.html %}
+  {% assign project_no = project_no | plus:1 %}
+  {% endfor %}
+</div>

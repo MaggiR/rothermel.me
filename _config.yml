@@ -11,6 +11,9 @@ permalink: pretty
 paginate: 10
 paginate_path: "/blog/page:num/"
 
+# Custom vars
+version: 0.3.0
+
 # Gems
 plugins:
   - jekyll-paginate
@@ -33,6 +36,8 @@ include:
   - _pages
 
 collections:
+  projects:
+    output: false
   pages:
     output: true
     permalink: /:path
@@ -50,9 +55,6 @@ sass:
 author:
   name: Mark Rothermel
   url: https://twitter.com/real_maggi
-
-# Custom vars
-version: 0.2.0
 
 # Navbar page list
 nav:
