@@ -1,0 +1,22 @@
+<div class="card mb-3">
+  <a href="{{ scholarship.link }}" class="scholarship-link">
+    <div class="row g-0">
+      <div class="col-md-6 scholarship-logo">
+        <img src="{{ scholarship.logo | relative_url}}"
+             class="img-fluid rounded-start post-thumbnail"
+             alt="{{ scholarship.title }}">
+      </div>
+      <div class="col-md-6">
+        <div class="card-body">
+          <p class="card-title">{{ scholarship.title }}</p>
+          <p class="card-text">
+            <time datetime="{{ post.date | date_to_xmlschema }}">
+              <i class="far fa-calendar icon"></i>
+              {{ scholarship.years }}
+            </time>
+          </p>
+        </div>
+      </div>
+    </div>
+  </a>
+</div>

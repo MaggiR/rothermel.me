@@ -35,6 +35,8 @@ exclude:
 include:
   - _pages
 
+collections_dir: collections
+
 collections:
   projects:
     output: false

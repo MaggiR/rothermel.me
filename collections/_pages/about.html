@@ -22,14 +22,17 @@ title: About
   </div>
 </div>
 
-<h2>Education</h2>
+<h1>Education</h1>
 
 <hr>
 {% for e in site.education reversed %}
 {% include edu.html %}
 {% endfor %}
 
-<h2>Scholarships</h2>
+<h1>Scholarships</h1>
+{% for scholarship in site.scholarships reversed %}
+{% include scholarship.html %}
+{% endfor %}
 
-<h2>Political & Social Engagement</h2>
+<h1>Political & Social Engagement</h1>
 
