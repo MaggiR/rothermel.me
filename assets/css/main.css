@@ -90,7 +90,7 @@ p a:hover {
 .main-menu-option {
   display: block;
   text-align: right;
-  min-width: 12em;
+  min-width: 8em;
   padding-top: 0.6em;
   padding-bottom: 0.6em;
   cursor: pointer;

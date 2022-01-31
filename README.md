@@ -11,8 +11,6 @@ In the project's root, run the command `bundle exec jekyll serve`. The page will
 
 ## ToDos:
 * Refactor main.css into smaller css files
-* Fix UX where menu option clickable region on frontpage is too large on mobile
 * Fix collapse animation on projects page
-* Improve projects overview (looks boring right now)
 * Improve link previews for posts on Twitter and FB
 * Decrease p font size
