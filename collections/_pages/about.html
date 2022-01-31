@@ -35,4 +35,6 @@ title: About
 {% endfor %}
 
 <h1>Political & Social Engagement</h1>
-
+{% for engagement in site.engagements reversed %}
+{% include engagement.html %}
+{% endfor %}

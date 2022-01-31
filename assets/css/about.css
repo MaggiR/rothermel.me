@@ -40,12 +40,9 @@ h1 {
 
 .scholarship-logo {
   background-color: white;
-  display: flex;
-  padding: 1em;
-  align-items: center;
 }
 
-.scholarship-logo img {
+.scholarship-logo img, .engagement-logo img {
   margin: 0;
 }
 
@@ -57,6 +54,8 @@ h1 {
   font-weight: bold;
 }
 
-.card time {
-
+.scholarship-logo, .engagement-logo {
+  display: flex;
+  padding: 1em;
+  align-items: center;
 }

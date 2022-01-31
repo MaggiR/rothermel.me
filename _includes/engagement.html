@@ -1,0 +1,24 @@
+<div class="card mb-3">
+  <div class="row g-0">
+    {% if engagement.logo %}
+    <div class="col-sm-4 engagement-logo">
+      <a href="{{ engagement.link }}" class="engagement-link">
+        <img src="{{ engagement.logo | relative_url}}"
+             class="img-fluid rounded-start"
+             alt="{{ engagement.title }}">
+      </a>
+    </div>
+    {% endif %}
+    <div class="col{% if engagement.logo %}-sm-8{% endif %}">
+      <div class="card-body">
+        <p class="card-title">{{ engagement.title }}</p>
+        <p class="card-text">
+          <time datetime="{{ post.date | date_to_xmlschema }}">
+            <i class="far fa-calendar icon"></i>
+            {{ engagement.years }}
+          </time>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
