@@ -18,10 +18,6 @@
     width: 50%;
     float: left;
   }
-
-  p {
-    font-size: 1em;
-  }
 }
 
 .project-filter-label {

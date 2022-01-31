@@ -87,3 +87,9 @@ p a:hover {
 .active {
   font-weight: bold;
 }
+
+@media screen and (min-width:768px) {  /* Bootstrap medium size */
+  p {
+    font-size: 1em;
+  }
+}
