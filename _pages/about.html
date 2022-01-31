@@ -1,0 +1,35 @@
+---
+layout: default
+title: About
+---
+
+<link rel="stylesheet" href="{{ 'assets/css/about.css' | relative_url }}">
+
+<div class="row justify-content-center">
+  <div class="card profile">
+    <div class="col">
+      <div class="row justify-content-center">
+        <img src="assets/images/mark_mask.jpg" alt="Picture of Mark" class="round-image">
+      </div>
+      <div class="row">
+        <h2>Mark S. Rothermel, B.Sc.</h2>
+        <p>CS Graduate Student</p>
+        <p>@ TU Darmstadt</p>
+        <p>ML, (X)AI</p>
+        <p>Born 1996, Germany</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<h2>Education</h2>
+
+<hr>
+{% for e in site.education reversed %}
+{% include edu.html %}
+{% endfor %}
+
+<h2>Scholarships</h2>
+
+<h2>Political & Social Engagement</h2>
+

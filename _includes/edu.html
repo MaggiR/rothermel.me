@@ -1,0 +1,25 @@
+<div class="col">
+  <div class="row align-items-center">
+    <div class="col-9 edu-title">
+      {{ e.title }}
+    </div>
+    {% if e.grade %}
+    <div class="col-3 edu-average">
+      Ø {{ e.grade }}
+    </div>
+    {% endif %}
+  </div>
+
+  <div class="row">
+    <div class="col-md-4">
+      <i class="far fa-calendar icon"></i>
+      {{ e.years }}
+    </div>
+    <div class="col-md-8">
+      <i class="fas fa-map-marker-alt icon"></i>
+      {{ e.institution }}
+    </div>
+  </div>
+</div>
+
+<hr>

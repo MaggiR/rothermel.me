@@ -93,3 +93,11 @@ p a:hover {
     font-size: 1em;
   }
 }
+
+/* Bootstrap color overrides: */
+.card {
+  background-color: var(--body-bg);
+  border-color: var(--border-color);
+  border-radius: 0.4rem;
+  transition: 0.3s;
+}

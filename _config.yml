@@ -38,6 +38,12 @@ include:
 collections:
   projects:
     output: false
+  education:
+    output: false
+  scholarships:
+    output: false
+  engagement:
+    output: false
   pages:
     output: true
     permalink: /:path
