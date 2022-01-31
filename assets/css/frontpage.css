@@ -1,0 +1,66 @@
+#title-background {
+  position: fixed;
+
+  height: 100vh;
+  width: 100vw;
+
+  background-image: url("../images/mark_vignette.jpg");
+  background-attachment: fixed;
+  background-position: calc(12vw - 35vh) bottom;
+  background-repeat: no-repeat;
+  background-size: auto calc(75% + 35vw);
+  background-color: #0d0d0d;
+
+  z-index: -1;
+}
+
+#main-screen {
+  font-size: calc(0.8em + (0.005 * 100vw));
+  display: flex;
+  /*min-height: 100vh;*/
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+#main-menu-container {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+#main-menu {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 4em;
+  padding-left: 2em;
+  flex-direction: column;
+}
+
+#main-title {
+  text-align: right;
+  display: block;
+  font-family: Outfit, sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-bottom: 0.7em;
+}
+
+#main-menu-margin {
+  width: 20%;
+}
+
+.main-menu-option {
+  display: block;
+  text-align: right;
+  min-width: 8em;
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.main-menu-option:hover {
+  font-weight: bold;
+  transition: 0.2s;
+}
