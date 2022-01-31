@@ -1,9 +1,11 @@
 ---
 title: "Fooling an image classifier with adversarial inputs"
 date: 2020-08-31
+years: 2020
 image-sm:
   path: assets/images/projects/saliency_map.jpg
   alt: "Saliency map"
+tags: ml xai
 ---
 
 This little experiment showcases how easy neural

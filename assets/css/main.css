@@ -250,3 +250,36 @@ img + em {  /* Image captions */
     float: left;
   }
 }
+
+.project-filter-label {
+  font-weight: bold;
+  color: var(--body-color);
+}
+
+.project {
+  /*transition: 0.3s;*/
+}
+
+.hidden {
+  display: none;
+}
+
+.project-meta {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.project-date {
+  color: var(--color-muted);
+  font-size: 0.9em;
+  margin-right: 1em;
+}
+
+.project-badge {
+  border: solid 1px var(--primary);
+  color: var(--body-color);
+}
+
+#projects-filter {
+  margin-bottom: 1rem;
+}

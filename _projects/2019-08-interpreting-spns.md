@@ -1,9 +1,11 @@
 ---
 title: "Interpreting Sum-Product Networks via Influence Functions"
 date: 2019-08-07
+years: 2019
 image-lg:
   path: assets/images/projects/spn_influence_fns.png
   alt: "Example influence plots"
+tags: ml thesis xai
 ---
 
 As my **Computer Science Bachelor's Thesis**, I investigated

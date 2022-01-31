@@ -1,6 +1,8 @@
 ---
 title: "Learning Angry Birds with RL"
 date: 2021-05-31
+years: 2020 - 2021
+tags: ml
 ---
 
 I built a TensorFlow framework for learning Angry Birds

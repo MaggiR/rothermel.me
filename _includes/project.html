@@ -1,24 +1,40 @@
-<a class="collapse-link" data-bs-toggle="collapse" href="#collapse-{{ project_no }}" role="button"
-   aria-expanded="false" aria-controls="collapse-{{ project_no }}">
-  <h2>{{ project.title }}</h2>
-</a>
+<div class="project {% for tag in project.tags %} tag-{{ tag }} {% endfor %}">
+  <a class="collapse-link" data-bs-toggle="collapse" href="#collapse-{{ project_no }}" role="button"
+     aria-expanded="false" aria-controls="collapse-{{ project_no }}">
+    <h2>{{ project.title }}</h2>
+  </a>
 
-<div class="collapse" id="collapse-{{ project_no }}">
-  {% if project.image-lg %}
-  <div class="project-image-lg">
-    <img src="{{ project.image-lg.path | relative_url }}"
-         alt="{{ project.image-lg.alt }}">
+  <div class="project-meta d-flex align-items-center flex-wrap">
+    <time class="project-date">{{ project.years }}</time>
+
+    <div class="project-badges">
+      {% for tag in site.project-tags %}
+      {% if project.tags contains tag.ident %}
+      <span class="badge rounded-pill project-badge">
+        {{ tag.text }}
+      </span>
+      {% endif %}
+      {% endfor %}
+    </div>
   </div>
-  {% endif %}
 
-  {% if project.image-sm %}
-  <div class="project-image-sm">
-    <img src="{{ project.image-sm.path | relative_url }}"
-         alt="{{ project.image-sm.alt }}">
+  <div class="collapse show" id="collapse-{{ project_no }}">
+    {% if project.image-lg %}
+    <div class="project-image-lg">
+      <img src="{{ project.image-lg.path | relative_url }}"
+           alt="{{ project.image-lg.alt }}">
+    </div>
+    {% endif %}
+
+    {% if project.image-sm %}
+    <div class="project-image-sm">
+      <img src="{{ project.image-sm.path | relative_url }}"
+           alt="{{ project.image-sm.alt }}">
+    </div>
+    {% endif %}
+
+    {{ project.content }}
   </div>
-  {% endif %}
 
-  {{ project.content }}
+  <hr>
 </div>
-
-<hr>

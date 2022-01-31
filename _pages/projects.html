@@ -3,7 +3,7 @@ layout: default
 title: Projects
 ---
 
-<h1>Projects</h1>
+{% include project_filter.html %}
 
 <div class="projects">
   <hr>
@@ -13,3 +13,5 @@ title: Projects
   {% assign project_no = project_no | plus:1 %}
   {% endfor %}
 </div>
+
+<script src="{{ '/assets/js/projects.js' | relative_url }}"></script>

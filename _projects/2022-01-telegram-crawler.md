@@ -1,6 +1,8 @@
 ---
 title: "Ongoing: Telegram crawler to analyze German conspiracy theory chats"
 date: 2022-01-30
+years: 2022
+tags: misc
 ---
 
 During the COVID-19 Pandemic, a lot of conspiracy theorists

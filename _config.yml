@@ -12,7 +12,7 @@ paginate: 10
 paginate_path: "/blog/page:num/"
 
 # Custom vars
-version: 0.3.0
+version: 0.3.1
 
 # Gems
 plugins:
@@ -41,6 +41,16 @@ collections:
   pages:
     output: true
     permalink: /:path
+
+project-tags:
+  - ident: ml
+    text: ML
+  - ident: xai
+    text: XAI
+  - ident: thesis
+    text: Thesis
+  - ident: misc
+    text: Misc
 
 sass:
   sass_dir: _sass

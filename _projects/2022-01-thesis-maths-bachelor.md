@@ -1,6 +1,8 @@
 ---
 title: "Ongoing: Mathematics Bachelor's Thesis"
 date: 2022-01-30
+years: 2022
+tags: ml thesis
 ---
 
 My second Bachelor's Thesis deals with Latent Space Optimization
