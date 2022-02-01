@@ -10,6 +10,7 @@
 
 h2 {
   margin-top: 1.8rem;
+  margin-bottom: 1rem;
 }
 
 code {
@@ -30,12 +31,12 @@ p, li {
   font-size: 0.9em;
 }
 
-p a, li a {
+p a, li a:not(.nav-link) {
   text-decoration: none;
   color: var(--primary);
 }
 
-p a:hover, li a:hover {
+p a:hover, li a:not(.nav-link):hover {
   text-decoration: underline;
   color: var(--primary-hover);
 }
