@@ -26,16 +26,16 @@ b {
   font-weight: 800;
 }
 
-p {
+p, li {
   font-size: 0.9em;
 }
 
-p a {
+p a, li a {
   text-decoration: none;
   color: var(--primary);
 }
 
-p a:hover {
+p a:hover, li a:hover {
   text-decoration: underline;
   color: var(--primary-hover);
 }
@@ -89,15 +89,16 @@ p a:hover {
 }
 
 @media screen and (min-width:768px) {  /* Bootstrap medium size */
-  p {
+  p, li {
     font-size: 1em;
   }
 }
 
 /* Bootstrap color overrides: */
 .card {
-  background-color: var(--body-bg);
+  background-color: transparent;
   border-color: var(--border-color);
   border-radius: 0.4rem;
   transition: 0.3s;
+  overflow: hidden;
 }

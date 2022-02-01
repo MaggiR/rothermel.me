@@ -12,3 +12,4 @@ In the project's root, run the command `bundle exec jekyll serve`. The page will
 ## ToDos:
 * Improve link previews for posts on Twitter and FB
 * Fix collapse animation on projects page
+* Fix favicon bug

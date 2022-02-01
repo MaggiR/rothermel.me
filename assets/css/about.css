@@ -1,6 +1,6 @@
 h1 {
-  margin-top: 1em;
-  margin-bottom: 0.5em;
+  margin-top: 2em;
+  margin-bottom: 1em;
 }
 
 .profile {
@@ -54,8 +54,80 @@ h1 {
   font-weight: bold;
 }
 
+.card a {
+  text-decoration: none;
+}
+
 .scholarship-logo, .engagement-logo {
   display: flex;
-  padding: 1em;
   align-items: center;
+  justify-content: center;
+  max-height: 8em;
 }
+
+.engagement-logo {
+  z-index: 1;
+}
+
+.engagement-logo:hover {
+  background-color: var(--bg-hover);
+}
+
+.scholarship-logo img, .engagement-logo img {
+  padding: 1em;
+  box-sizing: border-box;
+  max-height: 100%;
+}
+
+.engagement .row {
+  height: 100%;
+}
+
+.engagement {
+  height: 16em;
+  transition: 0.3s;
+}
+
+@media screen and (min-width: 576px) {
+  /* Bootstrap small size */
+  .engagement {
+    /*max-height: none;*/
+    height: 8em;
+  }
+
+  .scholarship-logo, .engagement-logo {
+    max-height: 100%;
+  }
+}
+
+.engagement .card-body {
+  padding-bottom: 0;
+}
+
+.engagement:before {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  box-shadow: inset 0 -2em 1em -1em var(--body-bg);
+  pointer-events: none;
+}
+
+.engagement.expand:before {
+  box-shadow: none;
+}
+
+.expand-toggle {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.engagement:not(.expand) .engagement-details:hover {
+  background-color: var(--bg-hover);
+}
+

@@ -1,6 +1,6 @@
 # Meta
 title: Mark Rothermel
-url: rothermel.me
+url:
 tagline: "My personal webpage."
 description: "Graduate Student, Researcher (ML, (X)AI), Photographer, Debater, Thinker."
 
@@ -12,7 +12,7 @@ paginate: 10
 paginate_path: "/blog/page:num/"
 
 # Custom vars
-version: 0.3.2
+version: 0.3.3
 
 # Gems
 plugins:

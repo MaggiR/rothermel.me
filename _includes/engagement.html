@@ -1,23 +1,25 @@
-<div class="card mb-3">
+<div class="card mb-3 engagement" id="eng-collapse-{{ engagement_no }}">
   <div class="row g-0">
     {% if engagement.logo %}
-    <div class="col-sm-4 engagement-logo">
-      <a href="{{ engagement.link }}" class="engagement-link">
-        <img src="{{ engagement.logo | relative_url}}"
-             class="img-fluid rounded-start"
-             alt="{{ engagement.title }}">
-      </a>
-    </div>
+    <a class="col-sm-4 engagement-logo engagement-link" href="{{ engagement.link }}">
+      <img src="{{ engagement.logo | relative_url}}"
+           class="img-fluid rounded-start"
+           alt="{{ engagement.title }}">
+    </a>
     {% endif %}
-    <div class="col{% if engagement.logo %}-sm-8{% endif %}">
+    <div class="col{% if engagement.logo %}-sm-8{% endif %} engagement-details">
+      <div onclick="trigger({{ engagement_no }})" id="eng-toggle-{{ engagement_no }}" class="expand-toggle"></div>
       <div class="card-body">
         <p class="card-title">{{ engagement.title }}</p>
-        <p class="card-text">
+        <p>
           <time datetime="{{ post.date | date_to_xmlschema }}">
             <i class="far fa-calendar icon"></i>
             {{ engagement.years }}
           </time>
         </p>
+        <div class="engagement-text">
+          {{ engagement.content }}
+        </div>
       </div>
     </div>
   </div>

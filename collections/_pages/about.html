@@ -35,6 +35,10 @@ title: About
 {% endfor %}
 
 <h1>Political & Social Engagement</h1>
+{% assign engagement_no = 0 %}
 {% for engagement in site.engagements reversed %}
 {% include engagement.html %}
+{% assign engagement_no = engagement_no | plus:1 %}
 {% endfor %}
+
+<script src="{{ '/assets/js/about.js' | relative_url }}"></script>
