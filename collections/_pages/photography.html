@@ -3,6 +3,8 @@ layout: default
 title: Photography
 ---
 
+<link rel="stylesheet" href="{{ 'assets/css/photography.css' | relative_url }}">
+
 <h1>Photography</h1>
 <p>
   Photography is one of my biggest hobbies!
@@ -11,7 +13,36 @@ title: Photography
   photos in exchange for money.
 </p>
 
+<h2>Some of my favorites</h2>
+<div id="carousel-best-of" class="carousel slide" data-bs-ride="carousel">
+  <div id="ratio-dummy"></div>
+  <div class="carousel-inner">
+    {% assign first_image_processed = false %}
+    {% for image in site.static_files %}
+    {% if image.path contains 'images/photos' %}
+    <div class="carousel-item
+      {% if first_image_processed != true %}
+      active
+      {% assign first_image_processed = true %}
+      {% endif %}">
+      <img src="{{ image.path | relative_url }}" class="d-block" alt="Example photo">
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carousel-best-of" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carousel-best-of" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
 <h2>Instagram</h2>
+<p>Some of my most recent images on Instagram. You're
+welcome to follow me <a href="https://www.instagram.com/computersuchti/">@computersuchti</a>.</p>
 <!-- SnapWidget -->
 <script src="https://snapwidget.com/js/snapwidget.js"></script>
 <iframe src="https://snapwidget.com/embed/983471" class="snapwidget-widget"
