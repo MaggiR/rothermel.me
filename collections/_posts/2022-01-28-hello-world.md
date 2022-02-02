@@ -1,9 +1,7 @@
 ---
 layout: post
 title: Hello World!
-thumbnail:
-  path: /assets/images/thumbnail_wide.jpg
-  description: maggi thumbnail
+image: assets/images/thumbnail_wide.jpg
 ---
 
 **A new page is born! This blog is the
