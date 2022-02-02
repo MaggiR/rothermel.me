@@ -95,7 +95,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: assets/images/thumbnail.jpg
+      image: assets/images/mark_wide.jpg
 #  - scope:
 #      path: "/posts/"
 #    values:
