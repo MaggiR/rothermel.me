@@ -95,7 +95,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: https://rothermel.me/assets/images/thumbnail.jpg
+      image: assets/images/thumbnail.jpg
 #  - scope:
 #      path: "/posts/"
 #    values:
