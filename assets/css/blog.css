@@ -69,3 +69,18 @@ img + em {  /* Image captions */
   font-style: normal;
   margin-top: -0.5em;
 }
+
+.post img {
+  width: 100vw;
+  max-width: none;
+  margin-left: calc(var(--spacer-2) * -1);
+  margin-right: calc(var(--spacer-2) * -1);
+}
+
+@media screen and (min-width:768px) {  /* Bootstrap medium size */
+  .post img {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+}

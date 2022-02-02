@@ -1,8 +1,10 @@
 #carousel-best-of {
   display: inline-block;
   position: relative;
-  width: 100%;
+  width: 100vw;
   background-color: var(--extra-dark);
+  margin-left: calc(var(--spacer-2) * -1);
+  margin-right: calc(var(--spacer-2) * -1);
 }
 
 #ratio-dummy {  /* used for 3:2 aspect ratio */
@@ -25,4 +27,12 @@
   width: 100%;
   height: 100%;
   object-fit: contain;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width:768px) {  /* Bootstrap medium size */
+  #carousel-best-of {
+    margin: 0;
+    width: 100%;
+  }
 }
