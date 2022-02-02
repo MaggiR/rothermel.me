@@ -23,4 +23,9 @@
       </div>
     </div>
   </div>
+  {% if engagement.photo %}
+  <div class="engagement-photo">
+    <img src="{{ engagement.photo.path }}" alt="{{ engagement.photo.alt }}">
+  </div>
+  {% endif %}
 </div>

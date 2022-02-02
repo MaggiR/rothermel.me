@@ -4,6 +4,9 @@ logo: assets/images/logos/vielbunt.png
 link: https://vielbunt.org
 years: 2016 - ongoing
 date: 2022-01-30
+photo:
+  path: https://lh3.googleusercontent.com/pw/AM-JKLW0AjcOXBjbjYs2xNBiyHJtqPlgWd6oRHpmm5Ot8Xxhtvj7kdUExVJ5I36_JOVCfHnBYsTZ_Uh3nexecq723T6S9w3vAtZr8_XLzMX2Co0HJ4m4XFgspXCCDlxOx4pD8ej08X7bmmMruRWgqqbJkT01Fw=w1800
+  alt: Darmstadt gay pride 2021
 ---
 
 Queer people in Germany, although benefiting from numerous
@@ -28,5 +31,3 @@ Here, I am...
 * doing many other things like filming the vielbunt Christmas
   show, helping to plan and renovate the community's premises,
   going on demonstrations etc.
-
-![Darmstadt gay pride 2021](https://lh3.googleusercontent.com/pw/AM-JKLW0AjcOXBjbjYs2xNBiyHJtqPlgWd6oRHpmm5Ot8Xxhtvj7kdUExVJ5I36_JOVCfHnBYsTZ_Uh3nexecq723T6S9w3vAtZr8_XLzMX2Co0HJ4m4XFgspXCCDlxOx4pD8ej08X7bmmMruRWgqqbJkT01Fw=w1800)
