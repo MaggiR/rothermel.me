@@ -12,7 +12,7 @@ paginate: 10
 paginate_path: "/blog/page:num/"
 
 # Custom vars
-version: 0.4.1
+version: 1.0.0
 
 # Gems
 plugins:

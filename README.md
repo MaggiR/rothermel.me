@@ -10,4 +10,3 @@ For Windows.
 In the project's root, run the command `bundle exec jekyll serve`. The page will be accessible via [localhost:4000](localhost:4000)
 
 ## ToDos:
-* Fix collapse animation on projects page
