@@ -10,9 +10,13 @@ h1 {
 }
 
 .round-image {
-  max-width: 12em;
-  border-radius: 50%;
+  max-width: 100%;
+  width: 12em;
+  height: 12em;
   margin: 0;
+  padding: 0;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 .profile p {
