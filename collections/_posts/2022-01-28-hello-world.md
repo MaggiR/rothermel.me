@@ -20,11 +20,11 @@ beginning of my new web presence. (And I'm glad the domain
 ## This webpage is generated using Jekyll
 
 My entire homepage is static. I use the static site
-generator [Jekyll](https://jekyllrb.com/) to build this
+generator [Jekyll](https://jekyllrb.com/){:target="_blank"} to build this
 page. It's my first time to
 use a static site generator, but it's not the first time I
 designed a webpage. For example, I designed the homepage
-of [Matheball](https://matheball.de), the mathematician's
+of [Matheball](https://matheball.de){:target="_blank"}, the mathematician's
 dancing ball at my university.
 
 The setup of Jekyll and Ruby was quite a mess. Fortunately,

@@ -17,7 +17,7 @@ This is why I am an active member of vielbunt e. V.
 vielbunt does important work for the queer community,
 including the fight for queer rights and bringing LGBT
 people together. As an instance, vielbunt organizes the
-annual [Darmstadt Gay Pride](https://www.csd-darmstadt.de/2021/08/csd-2022-am-20-august/).
+annual [Darmstadt Gay Pride](https://www.csd-darmstadt.de/2021/08/csd-2022-am-20-august/){:target="_blank"}.
 vielbunt is one of most professional
 organized charitable communities I've ever seen.
 
