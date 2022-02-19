@@ -34,6 +34,16 @@
     {% endif %}
 
     {{ project.content }}
+
+    {% if project.links %}
+    <div class="project-links">
+      {% for link in project.links %}
+      <a class="btn btn-primary" href="{{ link.target }}" target="_blank">
+        {{ link.text }}
+      </a>
+      {% endfor %}
+    </div>
+    {% endif %}
   </div>
 
   <hr>
