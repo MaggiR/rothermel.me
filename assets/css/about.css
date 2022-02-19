@@ -28,6 +28,10 @@ h1 {
   font-family: Outfit, sans-serif;
 }
 
+.edu-entry {
+  font-size: 0.9em;
+}
+
 .edu-title {
   /*font-size: 1.2em;*/
   font-weight: bold;
@@ -146,4 +150,10 @@ h1 {
 
 .engagement-photo img {
   margin: 0;
+}
+
+@media screen and (min-width:768px) {  /* Bootstrap medium size */
+  .edu-entry {
+    font-size: 1em;
+  }
 }
