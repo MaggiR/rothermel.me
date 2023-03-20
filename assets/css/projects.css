@@ -5,7 +5,7 @@
 
 .project-image-sm, .project-image-lg  {
   width: 100%;
-  margin: 1em 1em 0 0;
+  margin: 0 1em 0 0;
 }
 
 .project-image-sm img, .project-image-lg img {
@@ -34,8 +34,6 @@
 }
 
 .project-meta {
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
 }
 
 .project-date {
@@ -49,6 +47,19 @@
   color: var(--body-color);
 }
 
+.project-links {
+  margin-bottom: 1em;
+}
+
+.project-link:not(:first-child) {
+  margin-left: 0.5em;
+}
+
 #projects-filter {
   margin-bottom: 1rem;
+}
+
+.input-group-text {
+  height: 100%;
+  color: #343a40;
 }

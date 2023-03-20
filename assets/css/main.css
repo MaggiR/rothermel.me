@@ -38,6 +38,7 @@ p a, li a:not(.nav-link) {
 
 p a:hover, li a:not(.nav-link):hover {
   text-decoration: underline;
+  text-underline-offset: 0.25em;
   color: var(--primary-hover);
 }
 
@@ -103,11 +104,15 @@ p a:hover, li a:not(.nav-link):hover {
   }
 }
 
-/* Bootstrap color overrides: */
+/* Bootstrap overrides: */
 .card {
   background-color: transparent;
   border-color: var(--border-color);
   border-radius: 0.4rem;
   transition: 0.3s;
   overflow: hidden;
+}
+
+.btn {
+  font-weight: 600;
 }
