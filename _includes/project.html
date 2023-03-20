@@ -4,18 +4,35 @@
 <!--  </a>-->
   <h2>{{ project.title }}</h2>
 
-  <div class="project-meta d-flex align-items-center flex-wrap">
-    <time class="project-date">{{ project.years }}</time>
+  <div class="project-meta row">
+    <div class="col-sm col-auto d-flex align-items-center flex-wrap"
+    style="margin-bottom: 1em">
+      <time class="project-date">{{ project.years }}</time>
 
-    <div class="project-badges">
-      {% for tag in site.project-tags %}
-      {% if project.tags contains tag.ident %}
-      <span class="badge rounded-pill project-badge">
+      <div class="project-badges">
+        {% for tag in site.project-tags %}
+        {% if project.tags contains tag.ident %}
+        <span class="badge rounded-pill project-badge">
         {{ tag.text }}
       </span>
-      {% endif %}
+        {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+
+    {% if project.links %}
+    <div class="project-links col-sm d-flex justify-content-sm-end">
+      {% for link in project.links %}
+      <a class="btn btn-primary project-link" href="{{ link.target }}" target="_blank">
+        {% if link.icon %}
+        <i class="{{ link.icon }}"></i>
+        {% endif %}
+        {{ link.text }}
+      </a>
       {% endfor %}
     </div>
+    {% endif %}
+  </div>
   </div>
 
   <div class="collapse show" id="collapse-{{ project_no }}">
@@ -34,17 +51,6 @@
     {% endif %}
 
     {{ project.content }}
-
-    {% if project.links %}
-    <div class="project-links">
-      {% for link in project.links %}
-      <a class="btn btn-primary" href="{{ link.target }}" target="_blank">
-        {{ link.text }}
-      </a>
-      {% endfor %}
-    </div>
-    {% endif %}
-  </div>
 
   <hr>
 </div>

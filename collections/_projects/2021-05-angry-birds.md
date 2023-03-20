@@ -6,6 +6,7 @@ tags: ml
 links:
 - target: https://github.com/BluemlJ/AiBirds
   text: Source Code
+  icon: fas fa-code
 ---
 
 I built a TensorFlow framework for learning Angry Birds

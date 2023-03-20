@@ -9,6 +9,7 @@ tags: ml xai
 links:
 - target: https://colab.research.google.com/drive/1McqdMbBfIh4QMiVdPO06v44O5OsYUAos
   text: Interactive Source
+  icon: fas fa-code
 ---
 
 This little experiment showcases how easy neural

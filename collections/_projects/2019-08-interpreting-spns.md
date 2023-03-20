@@ -8,8 +8,10 @@ image-lg:
 links:
   - target: assets/documents/thesis_cs_bachelor.pdf
     text: Thesis
+    icon: fas fa-download
   - target: https://github.com/ml-research/Interpreting-SPNs
     text: Source Code
+    icon: fas fa-code
 tags: ml thesis xai
 ---
 
