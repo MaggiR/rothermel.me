@@ -5,7 +5,10 @@
     </div>
     {% if e.grade %}
     <div class="col-3 edu-average">
-      Ø {{ e.grade }}
+      <span class="" data-bs-toggle="tooltip" data-bs-placement="bottom"
+            title="Grades range from 1.0 (best) to 5.0 (worst).">
+        Ø {{ e.grade }}
+      </span>
     </div>
     {% endif %}
   </div>
