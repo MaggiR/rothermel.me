@@ -1,7 +1,7 @@
 ---
 title: "Computer Science M.Sc."
 institution: "TU Darmstadt, GER"
-years: "2019 - ongoing"
-grade: 1.09
-date: 2023-09-31
+years: "2019 - 2023"
+grade: 1.07
+date: 2023-10-30
 ---
