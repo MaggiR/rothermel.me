@@ -1,5 +1,5 @@
 ---
-title: "Ongoing: Telegram crawler to analyze German conspiracy theory chats"
+title: "Telegram crawler to analyze German conspiracy theory chats"
 date: 2022-01-30
 years: 2022
 tags: misc
