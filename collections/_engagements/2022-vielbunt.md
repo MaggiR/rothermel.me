@@ -2,7 +2,7 @@
 title: Queer Community Darmstadt (vielbunt)
 logo: assets/images/logos/vielbunt.png
 link: https://vielbunt.org
-years: 2016 - ongoing
+years: 2016 - 2023
 date: 2022-01-30
 photo:
   path: https://lh3.googleusercontent.com/pw/AM-JKLW0AjcOXBjbjYs2xNBiyHJtqPlgWd6oRHpmm5Ot8Xxhtvj7kdUExVJ5I36_JOVCfHnBYsTZ_Uh3nexecq723T6S9w3vAtZr8_XLzMX2Co0HJ4m4XFgspXCCDlxOx4pD8ej08X7bmmMruRWgqqbJkT01Fw=w1800

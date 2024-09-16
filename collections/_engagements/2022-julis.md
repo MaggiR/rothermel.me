@@ -1,7 +1,7 @@
 ---
 title: Young Liberals (JuLis)
 logo: assets/images/logos/julis.png
-link: https://darmstadt.junge-liberale.de/
+link: https://julis-darmstadt.de/
 years: 2021 - ongoing
 date: 2023-12-30
 photo:
